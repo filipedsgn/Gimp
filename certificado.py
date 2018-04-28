@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import csv, os, pwd
+import csv
 import datetime as dt
+import os
+import pwd
+
 from gimpfu import *
 
 
