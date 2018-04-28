@@ -5,8 +5,9 @@
     cd ~/Documentos
     git clone https://github.com/filipedsgn/Gimp.git
 
-## Como:
+## Tutorial:
 
+* Edite e salve o certificado.xcf no Gimp não alterando o nome das camadas
 * Executar o script executar.sh
 * Se tudo der certo deverá aparecer uma mensagem confirmando
 * Os certificados serão salvos em um subdiretório nomeado com o tempo atual
