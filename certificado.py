@@ -11,14 +11,14 @@ from gimpfu import *
 def plugin_main(timg, tdrawable):
     caminho = r'/home/' + pwd.getpwuid(os.getuid()).pw_name + r'/Documentos/Gimp/'
     csvnomes = caminho + 'nomes.csv'
-    certificado = caminho + 'certificado.xcf'
+    modelo = caminho + 'modelo.xcf'
     agora = dt.datetime.now().strftime('%Y-%m-%d %H:%M')
-    os.makedirs(caminho + 'Certificados - ' + agora)
-    dirCert = caminho + 'Certificados - ' + agora + '/'
+    os.makedirs(caminho + 'Arquivos - ' + agora)
+    dirCert = caminho + 'Arquivos - ' + agora + '/'
 
     with open(csvnomes) as arquivo:
         nomescsv = csv.reader(arquivo)
-        img = pdb.gimp_xcf_load(0, certificado, certificado)
+        img = pdb.gimp_xcf_load(0, modelo, modelo)
         drawa = pdb.gimp_image_get_active_drawable(img)
         camada = pdb.gimp_image_get_layer_by_name(img, 'nome')
 
@@ -31,13 +31,13 @@ def plugin_main(timg, tdrawable):
 
 
 register(
-    "certificados",
-    "Criar varios certificados",
-    "Criar varios certificados",
+    "scriptGimp",
+    "Criar varios arquivos a partir de csv",
+    "Criar varios arquivos a partir de csv",
     "Filipe Andrade >> github.com/filipedsgn/gimp",
     "Filipe Andrade >> github.com/filipedsgn/gimp",
     "2018",
-    "<Image>/Image/Ztronics",
+    "<Image>/Image/scriptGimp",
     "RGB*,GRAY*",
     [],
     [],
