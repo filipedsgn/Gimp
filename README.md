@@ -3,7 +3,7 @@
 ## Instalação
 
     cd ~/Documentos
-    git clone https://github.com/filipedsgn/gimp.git
+    git clone https://github.com/filipedsgn/Gimp.git
 
 Requerimentos:
 
