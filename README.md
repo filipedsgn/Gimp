@@ -2,7 +2,7 @@
 
 ## Instalação
 
-    mkdir ~/Documentos/GIMP && cd ~/Documentos/GIMP
+    cd ~/Documentos
     git clone https://github.com/filipedsgn/gimp.git
 
 Requerimentos:
