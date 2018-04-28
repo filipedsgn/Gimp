@@ -7,10 +7,10 @@
 
 ## Como:
 
-⋅⋅* Executar o script executar.sh
-⋅⋅* Se tudo der certo deverá aparecer uma mensagem confirmando
-⋅⋅* Caso contrário execute o script pelo terminal ($ ~/Documentos/Gimp/executar.sh)
-⋅⋅* e boa sorte kkkkk!
+* Executar o script executar.sh
+* Se tudo der certo deverá aparecer uma mensagem confirmando
+* Caso contrário execute o script pelo terminal ($ ~/Documentos/Gimp/executar.sh)
+* e boa sorte kkkkk!
 
 ## Requerimentos:
 
