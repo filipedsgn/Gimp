@@ -11,7 +11,7 @@
 ## Instalação:
 
     git clone https://github.com/filipedsgn/Gimp.git
-    sh setup.sh
+    sh ./Gimp/setup.sh
 
 ## Tutorial:
 
