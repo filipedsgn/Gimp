@@ -15,13 +15,13 @@ def plugin_main(timg, tdrawable):
     agora = dt.datetime.now().strftime('%Y-%m-%d %H:%M')
     os.makedirs(caminho + 'Arquivos - ' + agora)
     dir_arquivos = caminho + 'Arquivos - ' + agora + '/'
-    tamanho_fonte, unidades = pdb.gimp_text_layer_get_font_size(layer)
 
     with open(csvnomes) as arquivo:
         nomescsv = csv.reader(arquivo)
         img = pdb.gimp_xcf_load(0, modelo, modelo)
         drawa = pdb.gimp_image_get_active_drawable(img)
         camada = pdb.gimp_image_get_layer_by_name(img, 'nome')
+        tamanho_fonte, unidades = pdb.gimp_text_layer_get_font_size(camada)
 
         for row in nomescsv:
             pdb.gimp_text_layer_set_text(camada, row[0])
