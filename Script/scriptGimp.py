@@ -14,7 +14,8 @@ def plugin_main(timg, tdrawable):
     modelo = caminho + 'modelo.xcf'
     agora = dt.datetime.now().strftime('%Y-%m-%d %H:%M')
     os.makedirs(caminho + 'Arquivos - ' + agora)
-    dirCert = caminho + 'Arquivos - ' + agora + '/'
+    dir_arquivos = caminho + 'Arquivos - ' + agora + '/'
+    tamanho_fonte, unidades = pdb.gimp_text_layer_get_font_size(layer)
 
     with open(csvnomes) as arquivo:
         nomescsv = csv.reader(arquivo)
@@ -24,8 +25,9 @@ def plugin_main(timg, tdrawable):
 
         for row in nomescsv:
             pdb.gimp_text_layer_set_text(camada, row[0])
-            pdb.gimp_text_layer_set_font_size(camada, 144, 0)
-            pdb.file_pdf_save(img, drawa, (dirCert + row[0] + '.pdf'), (dirCert + row[0] + '.pdf'), FALSE, FALSE, TRUE)
+            pdb.gimp_text_layer_set_font_size(camada, tamanho_fonte, unidades)
+            pdb.file_pdf_save(img, drawa, (dir_arquivos + row[0] + '.pdf'), (dir_arquivos + row[0] +
+                                                                             '.pdf'), FALSE, FALSE, TRUE)
 
     pdb.gimp_quit(TRUE)
 
