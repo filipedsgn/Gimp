@@ -10,13 +10,13 @@
 * Edite e salve o modelo.xcf no Gimp não alterando o nome das camadas
 * Executar o script executar.sh
 * Se tudo der certo deverá aparecer uma mensagem confirmando
-* Os certificados serão salvos em um subdiretório nomeado com o tempo atual
-* Caso contrário execute o script pelo terminal ($ ~/Documentos/Gimp/executar.sh)
-* possívelmente será indicado o erro e boa sorte kkkkk
+* Os arquivos serão salvos em um subdiretório nomeado com o tempo atual
+* Em caso de erro execute o script pelo terminal ($ ~/Documentos/Gimp/executar.sh) e boa sorte kkkkk
 
 ## Requerimentos:
 
     # GIMP
     sudo apt install gimp
+
     # Fontes Noto
     sudo apt install fonts-noto
