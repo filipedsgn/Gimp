@@ -10,8 +10,8 @@
 
 ## Instalação:
 
-    cd ~/Documentos
     git clone https://github.com/filipedsgn/Gimp.git
+    sh setup.sh
 
 ## Tutorial:
 

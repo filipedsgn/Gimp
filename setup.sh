@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
-mv ~/Documentos/Gimp/Scripts/*.py ~/.gimp*/plug-ins/
-rm -rf ~/Documentos/Gimp/*.md ~/Documentos/Gimp/Script ~/Documentos/Gimp/setup.sh
+mkdir ~/Documentos/Gimp
+mv ./Gimp/nomes.csv ~/Documentos/Gimp/
+mv ./Gimp/executar.sh ~/Documentos/Gimp/
+mv ./Gimp/modelo.xcf ~/Documentos/Gimp/
+mv ./Scripts/*.py ~/.gimp*/plug-ins/
+rm -rf ../Gimp
 zenity --info --text="Instalação Concluída"
