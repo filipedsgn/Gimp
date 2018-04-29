@@ -7,6 +7,7 @@
 
 ## Tutorial:
 
+* Execute o instalador setup.sh
 * Edite e salve o modelo.xcf no Gimp não alterando o nome das camadas
 * Edite e salve o arquivo nomes.csv com os nomes a serem processados
 * Executar o script executar.sh
