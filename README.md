@@ -7,12 +7,12 @@
 
 ## Tutorial:
 
-* Edite e salve o certificado.xcf no Gimp não alterando o nome das camadas
+* Edite e salve o modelo.xcf no Gimp não alterando o nome das camadas
 * Executar o script executar.sh
 * Se tudo der certo deverá aparecer uma mensagem confirmando
 * Os certificados serão salvos em um subdiretório nomeado com o tempo atual
 * Caso contrário execute o script pelo terminal ($ ~/Documentos/Gimp/executar.sh)
-* possívelmente será indicado o erro e boa sorte kkkkk!
+* possívelmente será indicado o erro e boa sorte kkkkk
 
 ## Requerimentos:
 
