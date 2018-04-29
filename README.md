@@ -8,7 +8,7 @@
 ## Tutorial:
 
 * Edite e salve o modelo.xcf no Gimp não alterando o nome das camadas
-* Edite e salve o arquivos nomes.csv com os nomes a serem processados
+* Edite e salve o arquivo nomes.csv com os nomes a serem processados
 * Executar o script executar.sh
 * Se tudo der certo deverá aparecer uma mensagem confirmando
 * Os arquivos serão salvos em um subdiretório nomeado com o tempo atual
