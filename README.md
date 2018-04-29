@@ -1,4 +1,4 @@
-# Certificados Ztronics
+# Automação de arquivos GIMP (.xcf)
 
 ## Instalação:
 
