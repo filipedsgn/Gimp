@@ -2,7 +2,7 @@
 
 mkdir -p ~/Documentos/Gimp/Arquivos
 mkdir -p ~/Documentos/Gimp/Scripts
-cp ./gimp/Scripts/ ~/Documentos/Gimp/Scripts
+cp ./gimp/Scripts/* ~/Documentos/Gimp/Scripts
 
 if [ -d "~/.gimp/" ]; then
     cp ./gimp/Scripts/*/*.py ~/.gimp*/plug-ins/
