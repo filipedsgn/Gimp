@@ -9,12 +9,12 @@ from gimpfu import *
 
 
 def plugin_main(timg, tdrawable):
-    caminho = r'/home/' + pwd.getpwuid(os.getuid()).pw_name + r'/Documentos/Gimp/'
+    caminho = r'/home/' + pwd.getpwuid(os.getuid()).pw_name + r'/Documentos/Gimp/Scripts/AutoNomes/'
     csvnomes = caminho + 'nomes.csv'
     modelo = caminho + 'modelo.xcf'
     agora = dt.datetime.now().strftime('%Y-%m-%d %H:%M')
-    os.makedirs(caminho + 'Arquivos - ' + agora)
-    dir_arquivos = caminho + 'Arquivos - ' + agora + '/'
+    os.makedirs(caminho + r'../../Arquivos/' + agora)
+    dir_arquivos = caminho + r'../../Arquivos/' + agora + '/'
 
     with open(csvnomes) as arquivo:
         nomescsv = csv.reader(arquivo)
@@ -33,13 +33,13 @@ def plugin_main(timg, tdrawable):
 
 
 register(
-    "scriptGimp",
+    "autoNomes",
     "Criar varios arquivos a partir de csv",
     "Criar varios arquivos a partir de csv",
     "Filipe Andrade >> github.com/filipedsgn/gimp",
     "Filipe Andrade >> github.com/filipedsgn/gimp",
     "2018",
-    "<Image>/Image/scriptGimp",
+    "<Image>/Image/autoNomes",
     "RGB*,GRAY*",
     [],
     [],
