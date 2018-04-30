@@ -10,5 +10,5 @@ else
     cp ./gimp/Scripts/*/*.py ~/snap/gimp/current/.gimp*/plug-ins/
 fi
 
-rm -rf ./Gimp
-zenity --info --text="Instalação Concluída - Arquivos em ~/Documentos/Gimp" 2>/dev/null
+rm -rf ./gimp
+zenity --info --text="Instalação Concluída\nArquivos em ~/Documentos/Gimp" --width=200 --height=50 2>/dev/null
