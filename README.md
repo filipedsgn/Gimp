@@ -10,7 +10,7 @@
 
 ## Instalação:
 
-    git clone https://github.com/filipedsgn/gimp.git && sh ./Gimp/setup.sh
+    git clone https://github.com/filipedsgn/gimp.git && sh ./gimp/setup.sh
 
 ## Tutorial:
 
